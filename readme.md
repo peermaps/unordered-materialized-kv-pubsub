@@ -117,6 +117,10 @@ Stop receiving `'value'` events for a key or keys.
 Unsubscribe to every subscribed key and detach the session from the `kv` so the
 session may be garbage collected.
 
+## var keys = s.getOpenKeys()
+
+Return an array of the keys that are currently open, as strings.
+
 ## kv.get()
 
 Lookup the array of ids that map to a given string `key` as `cb(err, ids)`.

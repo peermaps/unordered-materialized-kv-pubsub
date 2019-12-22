@@ -99,6 +99,10 @@ Session.prototype.destroy = function () {
   delete this._kv._sessions[this._id]
 }
 
+Session.prototype.getOpenKeys = function () {
+  return Object.keys(this._subs)
+}
+
 function has (obj, key) {
   return Object.prototype.hasOwnProperty.call(obj, key)
 }
