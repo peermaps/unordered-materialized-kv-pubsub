@@ -1,6 +1,6 @@
 {
   "name": "unordered-materialized-kv-pubsub",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "live-updating materialized view for pubsub sessions over unordered key/id log messages",
   "keywords": [
     "crdt",
